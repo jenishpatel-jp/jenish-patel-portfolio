@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navigation = () => {
     return (
-        <div className='flex flex-row p-3 justify-end bg-stone-800 text-orange-400' >
+        <div className='flex flex-row p-3 justify-end bg-stone-800 text-white' >
             <h2 className='nav'>Home</h2>
             <h2 className='nav'>About</h2>
             <h2 className='nav'>Projects</h2>
