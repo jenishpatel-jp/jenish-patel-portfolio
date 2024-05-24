@@ -7,8 +7,8 @@ const Page = () => {
             <h1 className='my-4 text-5xl p-3 w-full text-center' >About</h1>
             <div className='flex w-5/6 mx-3 mt-4 mb-7 flex-1'>
                 <div className='flex flex-col items-center flex-1' >
-                    <div className='w-30 h-30 p-3 my-4 border'>
-                        <p>Image</p>
+                    <div className='w-30 h-30 p-3 my-4 '>
+            
                     </div>
                     <p className='text-left'>
                         I&apos;m a Front End Engineer with a passion for creating apps that make life easier. 
