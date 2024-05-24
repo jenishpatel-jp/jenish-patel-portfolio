@@ -2,14 +2,21 @@
 
 import React from 'react'
 import Link from 'next/link'
+import { useRouter, usePathname } from 'next/navigation'
 
 const Navigation = () => {
+    const pathname = usePathname();
+
+    const isActive = (pathnameInput: string) => {
+        return pathname === pathnameInput ? 'text-orange-400': ''
+    }
+
     return (
         <div className='flex flex-row p-3 justify-end bg-stone-800 text-white' >
-            <Link href={"/"} className='nav'>Home</Link>
-            <Link href={"/about"} className='nav'>About</Link>
-            <Link href={"../projects"} className='nav'>Projects</Link>
-            <Link href={"../contact"} className='nav'>Contact</Link>
+            <Link href={"/"} className={`nav ${isActive('/')}`}>Home</Link>
+            <Link href={"/about"} className={`nav ${isActive('/about')}`}>About</Link>
+            <Link href={"../projects"} className={`nav ${isActive('/projects')}`}>Projects</Link>
+            <Link href={"../contact"} className={`nav ${isActive('/contact')}`}>Contact</Link>
         </div>
     )
 }
