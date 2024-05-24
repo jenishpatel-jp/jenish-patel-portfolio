@@ -7,7 +7,7 @@ const Page = () => {
             <div className='flex border w-5/6 mx-3 mt-4 mb-7 flex-1'>
                 <div className='border flex flex-col items-center flex-1' >
                     <p>Image</p>
-                    <p>I'm a Front End Engineer with a passion for continous improvement.</p>
+                    <p>I&apos;m a Front End Engineer with a passion for continous improvement.</p>
                 </div>
                 <div className='border flex flex-1'>
 
