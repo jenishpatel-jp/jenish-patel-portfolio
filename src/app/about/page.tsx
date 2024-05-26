@@ -10,7 +10,7 @@ const Page = () => {
                     <div className='w-30 h-30 p-3 my-4 '>
             
                     </div>
-                    <p className='text-left'>
+                    <p className='text-left text-xl'>
                         I&apos;m on the quest of continous self improvement and finding a career that I enjoy. 
                         <br/>
                         <br/>
