@@ -11,11 +11,14 @@ const Page = () => {
             
                     </div>
                     <p className='text-left'>
-                        I&apos;m a Front End Engineer with a passion for creating apps that make life easier. 
+                        I&apos;m on the quest of continous self improvement and finding a career that I enjoy. 
                         <br/>
-                        I enjoy creating apps that solve issues using React and React Native.
                         <br/>
-                        On a quest to continously learn and improve my skills so I can write better code.
+                        I studied Accounting and Finance in Universtiy, worked in Customer Service, and now trying to get into the world of coding. 
+                        <br/>
+                        <br/>
+                        I have a passion for Javascript, React, React Native and making apps that make life easier and efficient.
+                        <br/>
                         <br/>
                         In my spare time I enjoy travelling, going to different restaurants/bars and gaming. 
                     </p>
