@@ -37,7 +37,7 @@ const Page = () => {
                     <h2>Shopping Run</h2>
                 </div>
                 <div className='flex flex-col p-2 border items-center justify-center'>
-                    <p className='p-2 text-lg mt-3' >A mobile application created for your shopping run. The app allows you to separate items based on the stores you're going to.</p>
+                    <p className='p-2 text-lg mt-3' >A mobile application created for your shopping run. The app allows you to separate items based on the stores you&apos;re going to.</p>
                     <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-orange hover:bg-orange-400 rounded-md' href={''} target='_blank'>LIVE APP</Link>
                     <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-orange hover:bg-orange-400 rounded-md' href={'https://github.com/jenishpatel-jp/shopping-run'} target='_blank'>LEARN MORE</Link>
                 </div>
