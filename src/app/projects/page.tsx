@@ -10,7 +10,7 @@ const Page = () => {
                 <div className='flex flex-col lg:flex-row mb-8'>
                     <div className='flex items-center justify-center p-2  flex-1'>
                         <Image
-                            src={"/Jammming screenshot.png"}
+                            src={"/project-screenshots/Jammming screenshot.png"}
                             alt="Screenshot of the Jammming app"
                             width={900}
                             height={500}
@@ -26,7 +26,7 @@ const Page = () => {
                 <div className='flex flex-col lg:flex-row mb-8'>
                     <div className='flex items-center justify-center p-2 rounded-md flex-1'>
                         <Image
-                            src={"/Reddit mini screenshot.png"}
+                            src={"/project-screenshots/Reddit mini screenshot.png"}
                             alt="Screenshot of the Reddit mini app"
                             width={900}
                             height={500}
@@ -42,7 +42,7 @@ const Page = () => {
                 <div className='flex flex-col lg:flex-row mb-8' >
                     <div className='flex  justify-center items-center flex-1'>
                     <Image
-                            src={"/Shopping run screenshot.png"}
+                            src={"/project-screenshots/Shopping run screenshot.png"}
                             alt="Screenshot of the Shopping Run app"
                             width={300}
                             height={600}

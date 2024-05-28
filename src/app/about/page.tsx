@@ -5,8 +5,8 @@ const Page = () => {
     return (
         <div className='flex flex-col min-h-screen items-center bg-stone-900 text-white'>
             <h1 className='my-4 text-5xl p-3 w-full text-center' >About</h1>
-            <div className='flex w-5/6 mx-3 mt-4 mb-7 flex-1'>
-                <div className='flex flex-col items-center justify-center flex-1' >
+            <div className='flex flex-col lg:flex-row w-5/6 mx-3 mt-4 mb-7 flex-1'>
+                <div className='flex lg:flex-col items-center justify-center flex-1' >
                     <p className='text-left text-xl'>
                         I&apos;m on the quest of continous self improvement and finding a career that I enjoy. 
                         <br/>
@@ -21,10 +21,10 @@ const Page = () => {
                     </p>
                 </div>
                 <div className='flex flex-col p-2 items-center justify-center'>
-                    <div className='flex lg:flex-row p-2 my-4 flex-col'>
+                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
-                            src={'/HTML5-high.png'}
+                            src={'/skills-logo/HTML5-high.png'}
                             width={150}
                             height={150}
                             alt='HTML'
@@ -34,7 +34,7 @@ const Page = () => {
                         </div>
                         <div className='skills' >
                         <Image 
-                        src={'/css-high.png'}
+                        src={'/skills-logo/css-high.png'}
                         width={150}
                         height={150}
                         alt='CSS'
@@ -44,7 +44,7 @@ const Page = () => {
                         </div>
                         <div className='skills' >
                         <Image 
-                        src={'/Javascript.png'}
+                        src={'/skills-logo/Javascript.png'}
                         width={150}
                         height={150}
                         alt='Javascript'
@@ -53,10 +53,20 @@ const Page = () => {
                         <p className='hidden lg:inline' >Javascript</p>
                         </div>      
                     </div>
-                    <div className='flex lg:flex-row p-2 my-4 flex-col'>
+                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
-                            src={'/React.png'}
+                            src={'/skills-logo/Typescript_logo_2020.svg'}
+                            width={150}
+                            height={150}
+                            alt='Redux'
+                            className='p-2 m-2'
+                            />
+                            <p className='hidden lg:inline'>Typescript</p>
+                        </div>
+                        <div className='skills' >
+                            <Image 
+                            src={'/skills-logo/React.png'}
                             width={150}
                             height={150}
                             alt='React'
@@ -66,7 +76,7 @@ const Page = () => {
                         </div>
                         <div className='skills' >
                             <Image 
-                            src={'/nextjs-logo.png'}
+                            src={'/skills-logo/nextjs-logo.png'}
                             width={150}
                             height={150}
                             alt='Next.JS'
@@ -74,9 +84,11 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Next.JS</p>
                         </div>
+                    </div>
+                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
-                            src={'/react-native.png'}
+                            src={'/skills-logo/react-native.png'}
                             width={150}
                             height={150}
                             alt='React Native'
@@ -84,11 +96,9 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>React Native</p>
                         </div>
-                    </div>
-                    <div className='flex lg:flex-row p-2 my-4 flex-col'>
                         <div className='skills' >
                             <Image 
-                            src={'/git.png'}
+                            src={'/skills-logo/git.png'}
                             width={150}
                             height={150}
                             alt='Git'
@@ -98,7 +108,7 @@ const Page = () => {
                         </div>
                         <div className='skills' >
                             <Image 
-                            src={'/redux.png'}
+                            src={'/skills-logo/redux.png'}
                             width={150}
                             height={150}
                             alt='Redux'
@@ -106,7 +116,19 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Redux</p>
                         </div>
-                    </div>        
+                    </div>
+                    <div className='flex p-2 my-4'>
+                        <div className='skills' >
+                            <Image 
+                            src={'/skills-logo/tailwind-css.png'}
+                            width={150}
+                            height={150}
+                            alt='Redux'
+                            className='p-2 m-2'
+                            />
+                            <p className='hidden lg:inline'>Tailwind CSS</p>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
