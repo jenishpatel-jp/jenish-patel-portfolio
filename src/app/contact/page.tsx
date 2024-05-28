@@ -34,7 +34,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Name</label>
                 <input 
                 placeholder='John/Jane Doe' 
-                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white'
+                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
                 value={name}
                 onChange={handleNameChage}
                 />
@@ -42,7 +42,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Email</label>
                 <input 
                 placeholder='email@gmail.com' 
-                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white'
+                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
                 value={email}
                 onChange={handleEmailChange}
                 />
@@ -50,7 +50,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Message</label>
                 <textarea 
                 name='content'  
-                className='p-3 focus:outline-orange-400 bg-stone-500'
+                className='p-3 focus:outline-orange-400 bg-stone-500 rounded-md'
                 value={message}
                 onChange={handleMessageChange}
                 />
