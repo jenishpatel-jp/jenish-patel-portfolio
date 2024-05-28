@@ -5,7 +5,7 @@ const Page = () => {
     return (
         <div className='flex flex-col min-h-screen items-center bg-stone-900 text-white '>
             <h1 className='my-4 text-5xl p-3 w-full text-center mt-10 underline underline-offset-8 underline-orange'>Contact</h1>
-            <form className='flex flex-1 flex-col w-2/6 mt-20'>
+            <form className='flex flex-1 flex-col w-5/6 md:w-4/6 lg:w-2/6 mt-20'>
                 <label className='p-2 text-lg'>Name</label>
                 <input placeholder='John Doe' className='p-2'></input>
                 <label className='p-2 text-lg'>Email</label>
