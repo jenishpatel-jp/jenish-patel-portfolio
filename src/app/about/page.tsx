@@ -87,13 +87,13 @@ const Page = () => {
                     <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
-                            src={'/skills-logo/react-native.png'}
+                            src={'/skills-logo/tailwind-css.png'}
                             width={150}
                             height={150}
-                            alt='React Native'
+                            alt='Redux'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>React Native</p>
+                            <p className='hidden lg:inline'>Tailwind CSS</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -119,13 +119,23 @@ const Page = () => {
                     <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
-                            src={'/skills-logo/tailwind-css.png'}
+                            src={'/skills-logo/react-native.png'}
                             width={150}
                             height={150}
-                            alt='Redux'
+                            alt='React Native'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Tailwind CSS</p>
+                            <p className='hidden lg:inline'>React Native</p>
+                        </div>
+                        <div className='skills' >
+                            <Image 
+                            src={'/skills-logo/expo-go-app.svg'}
+                            width={150}
+                            height={150}
+                            alt='Expo Go'
+                            className='p-2 m-2'
+                            />
+                            <p className='hidden lg:inline'>Expo Go</p>
                         </div>
                     </div>  
                 </div>
