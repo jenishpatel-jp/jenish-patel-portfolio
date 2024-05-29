@@ -8,6 +8,11 @@ const Page = () => {
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [message, setMessage] = useState<string>("");
+
+    const [nameError, setNameError] = useState<boolean>(false);
+    const [emailError, setEmailError] = useState<boolean>(false);
+    const [messageError, setMessageError] = useState<boolean>(false);
+
     const form = useRef<HTMLFormElement>(null);
 
     const handleNameChange = (e:ChangeEvent<HTMLInputElement>) => {
@@ -25,7 +30,23 @@ const Page = () => {
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        if (form.current){
+        let isValid = true;
+        if (!name) {
+            setNameError(true);
+            isValid = false;
+        }
+
+        if (!email) {
+            setEmailError(true);
+            isValid = false;
+        }
+
+        if (!message){
+            setMessageError(true);
+            isValid = false;
+        }
+
+        if (isValid && form.current){
             emailjs.sendForm(
                 process.env.NEXT_PUBLIC_SERVICE_ID!,
                 process.env.NEXT_PUBLIC_TEMPLATE_ID!,
@@ -42,6 +63,8 @@ const Page = () => {
                 console.error('FAILED...', error);
                 alert("Failed to send message. Please try again.");
             });
+        } else {
+            alert("Please fill in all the fields.")
         }
     }
 
@@ -56,7 +79,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Name</label>
                 <input 
                 placeholder='John/Jane Doe' 
-                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
                 value={name}
                 onChange={handleNameChange}
                 name="user_name"
@@ -65,7 +88,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Email</label>
                 <input 
                 placeholder='email@gmail.com' 
-                className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
                 value={email}
                 onChange={handleEmailChange}
                 name="user_email"
@@ -74,7 +97,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Message</label>
                 <textarea 
                 name="message"
-                className='p-3 focus:outline-orange-400 bg-stone-500 rounded-md border'
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
                 value={message}
                 onChange={handleMessageChange}
     
