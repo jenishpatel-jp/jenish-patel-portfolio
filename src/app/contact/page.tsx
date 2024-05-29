@@ -1,14 +1,16 @@
 'use client'
 
-import { ChangeEvent, FormEvent, useState } from "react"
+import { ChangeEvent, FormEvent, useRef, useState } from "react"
+import emailjs from '@emailjs/browser';
 
 const Page = () => {
 
     const [name, setName] = useState<string>("");
     const [email, setEmail] = useState<string>("");
     const [message, setMessage] = useState<string>("");
+    const form = useRef<HTMLFormElement>(null);
 
-    const handleNameChage = (e:ChangeEvent<HTMLInputElement>) => {
+    const handleNameChange = (e:ChangeEvent<HTMLInputElement>) => {
         setName(e.target.value);
     } 
 
@@ -20,23 +22,44 @@ const Page = () => {
         setMessage(e.target.value);
     } 
 
-    const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
+        if (form.current){
+            emailjs.sendForm(
+                process.env.NEXT_PUBLIC_SERVICE_ID!,
+                process.env.NEXT_PUBLIC_TEMPLATE_ID!,
+                form.current,
+                process.env.NEXT_PUBLIC_PUBLIC_KEY!
+            )
+            .then((response )=>{
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Message sent successfully!');
+                setName("");
+                setEmail("");
+                setMessage("");
+            }, (error) => {
+                console.error('FAILED...', error);
+                alert("Failed to send message. Please try again.");
+            });
+        }
     }
+
+    
 
     return (
         <div className='flex flex-col min-h-screen items-center bg-stone-900 text-white '>
             <h1 className='my-4 text-5xl p-3 w-full text-center mt-10 underline underline-offset-8 underline-orange'>Contact</h1>
 
-            <form onSubmit={handleSubmit} className='flex flex-1 flex-col w-5/6 md:w-4/6 lg:w-2/6 mt-20'>
+            <form onSubmit={handleSubmit} ref={form} className='flex flex-1 flex-col w-5/6 md:w-4/6 lg:w-2/6 mt-20'>
 
                 <label className='p-2 text-lg'>Name</label>
                 <input 
                 placeholder='John/Jane Doe' 
                 className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
                 value={name}
-                onChange={handleNameChage}
+                onChange={handleNameChange}
+                name="user_name"
                 />
 
                 <label className='p-2 text-lg'>Email</label>
@@ -45,14 +68,16 @@ const Page = () => {
                 className='p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md'
                 value={email}
                 onChange={handleEmailChange}
+                name="user_email"
                 />
 
                 <label className='p-2 text-lg'>Message</label>
                 <textarea 
-                name='content'  
-                className='p-3 focus:outline-orange-400 bg-stone-500 rounded-md'
+                name="message"
+                className='p-3 focus:outline-orange-400 bg-stone-500 rounded-md border'
                 value={message}
                 onChange={handleMessageChange}
+    
                 />
 
                 <div className='flex flex-row-reverse my-2'>
