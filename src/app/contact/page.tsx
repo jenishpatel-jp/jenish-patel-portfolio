@@ -17,14 +17,17 @@ const Page = () => {
 
     const handleNameChange = (e:ChangeEvent<HTMLInputElement>) => {
         setName(e.target.value);
+        setNameError(false);
     } 
 
     const handleEmailChange = (e:ChangeEvent<HTMLInputElement>) => {
         setEmail(e.target.value);
+        setEmailError(false);
     } 
 
     const handleMessageChange = (e:ChangeEvent<HTMLTextAreaElement>) => {
         setMessage(e.target.value);
+        setMessageError(false);
     } 
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -79,7 +82,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Name</label>
                 <input 
                 placeholder='John/Jane Doe' 
-                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md`}
                 value={name}
                 onChange={handleNameChange}
                 name="user_name"
@@ -88,7 +91,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Email</label>
                 <input 
                 placeholder='email@gmail.com' 
-                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md`}
                 value={email}
                 onChange={handleEmailChange}
                 name="user_email"
@@ -97,7 +100,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Message</label>
                 <textarea 
                 name="message"
-                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md  ${emailError ?' border-red-500': ''}`}
+                className={`p-3 focus:outline-orange-400 bg-stone-500 placeholder:text-white rounded-md`}
                 value={message}
                 onChange={handleMessageChange}
     
