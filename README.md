@@ -5,6 +5,10 @@ A website portfolio highlighting and providing links to the different projects I
 
 The different pages are connected using Next.js routing. 
 
+## Features 
+The website has been optimised for both mobile and web browsers. 
+EmailJS is used for the contact form page to allow emails to be sent to my email address. 
+
 ## Installation
 You can view my portfolio using the link below. 
 
