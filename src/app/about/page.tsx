@@ -5,21 +5,27 @@ const Page = () => {
         <div className='flex flex-col min-h-screen items-center bg-stone-900 text-white'>
             <h1 className='my-4 text-5xl p-3 w-full text-center underline underline-offset-8 underline-orange' >About</h1>
             <div className='flex flex-col lg:flex-row w-5/6 mx-3 mt-4 mb-7 flex-1'>
-                <div className='flex lg:flex-col items-center justify-center flex-1' >
-                    <p className='text-left text-xl'>
-                        I&apos;m on the quest of continous self improvement and finding a career that I enjoy. 
+                <div className='flex lg:flex-col items-center lg:w-3/5' >
+                    <p className='text-left text-xl lg:mt-10 lg:pt-10'>
+                        Driven by a quest for continous self-improvement, I am on a journey to find a fulfilling career that aligns with my passions. 
+                        
                         <br/>
                         <br/>
-                        I studied Accounting and Finance in Universtiy, worked in Customer Service, and now trying to get into the world of coding. 
+                        I studied Accounting and Finance 
+                        in university and gained valuble experience in Customer Service through work experience. 
+                        Now I am transitioning into the dynamic world of coding. 
                         <br/>
                         <br/>
-                        I have a passion for Javascript, React, React Native and making apps that make life easier and efficient.
+                        I am passionate about Javascript, React, and React Native, and I am dedicated to developing apps that enhance efficiency and simplify everyday tasks. 
                         <br/>
                         <br/>
-                        In my spare time I enjoy travelling, going to different restaurants/bars and gaming. 
+                        In my spare time, I love to travel, explore diverse restaurants and bars around Melbourne, and game. 
+                        <br/>
+                        <br/>
+                        Feel free to explore my portfolio and see the projects I have been working on! 
                     </p>
                 </div>
-                <div className='flex flex-col p-2 items-center justify-center'>
+                <div className='flex flex-col p-2 items-center justify-center mx-5 flex-1'>
                     <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
