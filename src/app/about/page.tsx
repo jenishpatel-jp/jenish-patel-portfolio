@@ -8,7 +8,6 @@ const Page = () => {
                 <div className='flex lg:flex-col items-center lg:w-3/5' >
                     <p className='text-left text-xl lg:mt-10 lg:pt-10'>
                         Driven by a quest for continous self-improvement, I am on a journey to find a fulfilling career that aligns with my passions. 
-                        
                         <br/>
                         <br/>
                         I studied Accounting and Finance 
