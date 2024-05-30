@@ -1,7 +1,9 @@
 # Jenish Patel's Portfolio
 
 ## Description 
-A website portfolio highlighting the different projects I have worked on. 
+A website portfolio highlighting and providing links to the different projects I have worked on. 
+
+The different pages are connected using Next.js routing. 
 
 ## Installation
 You can view my portfolio using the link below. 
