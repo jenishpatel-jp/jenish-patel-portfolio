@@ -5,7 +5,7 @@ export default function Home() {
           Hello, I&apos;m <span className="text-orange-400" >Jenish</span>.
         </h2>
         <h2 className="text-white w-full text-center text-5xl">
-          I&apos;m a Front-End Developer.
+          I&apos;m a Full Stack Developer.
         </h2>
     </main>
   );
