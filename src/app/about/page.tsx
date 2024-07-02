@@ -55,9 +55,7 @@ const Page = () => {
                         className='p-2 m-2'
                         />
                         <p className='hidden lg:inline' >Javascript</p>
-                        </div>      
-                    </div>
-                    <div className='flex p-2 my-4'>
+                        </div>
                         <div className='skills' >
                             <Image 
                             src={'/skills-logo/Typescript_logo_2020.svg'}
@@ -67,7 +65,10 @@ const Page = () => {
                             className='p-2 m-2'
                             />
                             <p className='hidden lg:inline'>Typescript</p>
-                        </div>
+                        </div>    
+                    </div>
+                    <div className='flex p-2 my-4'>
+                        
                         <div className='skills' >
                             <Image 
                             src={'/skills-logo/React.png'}
@@ -88,8 +89,6 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Next.JS</p>
                         </div>
-                    </div>
-                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
                             src={'/skills-logo/tailwind-css.png'}
@@ -110,6 +109,8 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Git</p>
                         </div>
+                    </div>
+                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
                             src={'/skills-logo/redux.png'}
@@ -120,8 +121,6 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Redux</p>
                         </div>
-                    </div>
-                    <div className='flex p-2 my-4'>
                         <div className='skills' >
                             <Image 
                             src={'/skills-logo/react-native.png'}
@@ -142,6 +141,20 @@ const Page = () => {
                             />
                             <p className='hidden lg:inline'>Expo Go</p>
                         </div>
+                        <div className='skills' >
+                            <Image 
+                            src={'/skills-logo/expo-go-app.svg'}
+                            width={150}
+                            height={150}
+                            alt='Expo Go'
+                            className='p-2 m-2'
+                            />
+                            <p className='hidden lg:inline'>Expo Go</p>
+                        </div>
+                    </div>
+                    <div className='flex p-2 my-4'>
+                        
+                        
                     </div>  
                 </div>
             </div>
