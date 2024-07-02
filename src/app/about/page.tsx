@@ -15,10 +15,10 @@ const Page = () => {
                         Now I am transitioning into the dynamic world of coding. 
                         <br/>
                         <br/>
-                        I am passionate about Javascript, React, and React Native, and I am dedicated to developing apps that enhance efficiency and simplify everyday tasks. 
+                        I am passionate about Javascript, React, and all things web development. I am dedicated to developing apps that enhance efficiency and simplify everyday tasks. 
                         <br/>
                         <br/>
-                        In my spare time, I love to travel, explore diverse restaurants and bars around Melbourne, and game. 
+                        In my spare time, I love to travel, explore diverse restaurants and bars around Melbourne, and gaming.
                         <br/>
                         <br/>
                         Feel free to explore my portfolio and see the projects I have been working on! 
