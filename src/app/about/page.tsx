@@ -137,24 +137,32 @@ const Page = () => {
                             width={150}
                             height={150}
                             alt='Expo Go'
-                            className='p-2 m-2'
+                            className='p-2 m-2 flex-1'
                             />
                             <p className='hidden lg:inline'>Expo Go</p>
                         </div>
                         <div className='skills' >
                             <Image 
-                            src={'/skills-logo/expo-go-app.svg'}
+                            src={'/skills-logo/nodejs_light.svg'}
                             width={150}
                             height={150}
                             alt='Expo Go'
-                            className='p-2 m-2'
+                            className='p-2 m-2 flex-1'
                             />
-                            <p className='hidden lg:inline'>Expo Go</p>
+                            <p className='hidden lg:inline'>Node.js</p>
                         </div>
                     </div>
                     <div className='flex p-2 my-4'>
-                        
-                        
+                        <div className='skills' >
+                            <Image 
+                            src={'/skills-logo/postgres.png'}
+                            width={150}
+                            height={150}
+                            alt='Expo Go'
+                            className='p-2 m-2 flex-1'
+                            />
+                            <p className='hidden lg:inline'>PostgreSQL</p>
+                        </div>
                     </div>  
                 </div>
             </div>
