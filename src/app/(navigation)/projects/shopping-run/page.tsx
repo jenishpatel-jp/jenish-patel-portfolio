@@ -10,10 +10,10 @@ const ShoppingRun = () => {
         </h2>
         <p className='mb-10 text-xl'>Download the Shopping Run app on your Android phone by scanning the QR code below or you can download the app by clicking 
             <span className="text-orange-400" >
-                <Link href={"https://expo.dev/accounts/jpcodingboy/projects/shopping-run/builds/174ddde8-7c76-4b42-850f-585304f76020"} target='_blank'> here</Link>
+                <Link href={"https://expo.dev/accounts/jpcodingboy/projects/shopping-run/builds/18a37e49-537f-41e1-bf5f-3cccf87a51b6"} target='_blank'> here</Link>
             </span>.</p>
         <Image
-        src={"/project-screenshots/Shopping Run QR.png"}
+        src={"/project-screenshots/ShoppingRunQR.png"}
         alt="Screenshot of the Shopping Run app"
         width={200}
         height={200}
