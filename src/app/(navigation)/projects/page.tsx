@@ -20,7 +20,7 @@ const Page = () => {
                         <h2 className='text-4xl p-2 font-medium' >Shopping Run</h2>
                         <p className='p-2 text-lg mt-3' >A mobile application created using Expo and React Native for your shopping run. The app allows you to separate items based on the stores you&apos;re going to.</p>
                         <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-orange hover:bg-orange-400 rounded-md' href={'/projects/shopping-run'} replace>LIVE APP</Link>
-                        <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-orange hover:bg-orange-400 rounded-md' href={'https://github.com/jenishpatel-jp/shopping-run'} target='_blank'>LEARN MORE</Link>
+                        <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-orange hover:bg-orange-400 rounded-md' href={'https://github.com/jenishpatel-jp/shopping-run-2'} target='_blank'>LEARN MORE</Link>
                     </div>
                 </div>
                 <div className='flex flex-col lg:flex-row mb-8'>
