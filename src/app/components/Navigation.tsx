@@ -8,11 +8,11 @@ const Navigation = () => {
     const pathname = usePathname();
 
     const isActive = (pathnameInput: string) => {
-        return pathname === pathnameInput ? 'text-orange-400': ''
+        return pathname === pathnameInput ? 'text-fuchsia-600': ''
     }
 
     return (
-        <div className='flex flex-row p-3 justify-end bg-stone-800 text-white' >
+        <div className='flex flex-row p-3 justify-end bg-zinc-950 text-white' >
             <Link href={"/"} className={`nav ${isActive('/')}`}>Home</Link>
             <Link href={"/about"} className={`nav ${isActive('/about')}`}>About</Link>
             <Link href={"../projects"} className={`nav ${isActive('/projects')}`}>Projects</Link>
@@ -21,4 +21,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation
+export default Navigation;
