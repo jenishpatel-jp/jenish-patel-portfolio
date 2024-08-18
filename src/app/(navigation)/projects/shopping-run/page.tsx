@@ -4,7 +4,7 @@ import React from 'react'
 
 const ShoppingRun = () => {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center bg-zinc-900 text-white">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-void text-stark">
         <h2 className="text-white w-full text-center text-5xl mb-5 " >
           Shopping Run
         </h2>

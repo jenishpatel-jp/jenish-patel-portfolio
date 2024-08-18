@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Page = () => {
     return (
-        <div className='flex flex-col min-h-screen items-center bg-zinc-900 text-white'>
+        <div className='flex flex-col min-h-screen items-center bg-void text-stark'>
             <h1 className='my-4 text-5xl p-3 w-full text-center underline underline-offset-8 underline-fuchsia' >About</h1>
             <div className='flex flex-col lg:flex-row w-5/6 mx-3 mt-4 mb-7 flex-1 items-center'>
                 <div className='flex lg:flex-col items-center lg:w-3/5' >
