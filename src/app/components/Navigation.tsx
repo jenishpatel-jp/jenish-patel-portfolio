@@ -12,7 +12,7 @@ const Navigation = () => {
     }
 
     return (
-        <div className='flex flex-row p-3 justify-end bg-zinc-950 text-white' >
+        <div className='flex flex-row p-3 justify-end bg-zinc-900 text-white border-b border-black' >
             <Link href={"/"} className={`nav ${isActive('/')}`}>Home</Link>
             <Link href={"/about"} className={`nav ${isActive('/about')}`}>About</Link>
             <Link href={"../projects"} className={`nav ${isActive('/projects')}`}>Projects</Link>
