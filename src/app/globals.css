@@ -4,7 +4,7 @@
 
 @layer components {
   .nav {
-    @apply px-4 py-2 m-1 rounded-md hover:text-fuchsia-600 cursor-pointer text-lg lg:text-xl
+    @apply px-4 py-2 m-1 rounded-md hover:text-fuchsia cursor-pointer text-lg lg:text-xl
   }
 
   .skills {
@@ -14,5 +14,5 @@
 }
 
 .underline-fuchsia {
-  text-decoration-color:#c026d3;
+  text-decoration-color:#A239CA;
 }

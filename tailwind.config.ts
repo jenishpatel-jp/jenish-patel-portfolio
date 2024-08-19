@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         'jewel':'#4717F6',
         'void':'#0E0B16',
-        'fuschia': '#A239CA',
+        'fuchsia': '#A239CA',
         'stark':'#E7DFDD',
       }
     },
