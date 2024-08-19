@@ -8,7 +8,7 @@ const Navigation = () => {
     const pathname = usePathname();
 
     const isActive = (pathnameInput: string) => {
-        return pathname === pathnameInput ? 'text-fuchsia-600': ''
+        return pathname === pathnameInput ? 'text-fuchsia': ''
     }
 
     return (

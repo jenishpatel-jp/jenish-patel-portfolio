@@ -24,11 +24,25 @@ const Page = () => {
                     </div>
                 </div>
                 <div className='flex flex-col lg:flex-row mb-8' >
-                    <div className='flex  justify-center items-center flex-1'>
+                    <div className='flex justify-center items-center flex-1'>
                     <Image
-                            src={"/project-screenshots/shopping-run.png"}
+                            src={"/project-screenshots/shopping-1.png"}
                             alt="Screenshot of the Shopping Run app"
-                            width={900}
+                            width={300}
+                            height={500}
+                            className=' justify-center'
+                        />
+                    <Image
+                            src={"/project-screenshots/shopping-2.png"}
+                            alt="Screenshot of the Shopping Run app"
+                            width={300}
+                            height={500}
+                            className=' justify-center'
+                        />
+                    <Image
+                            src={"/project-screenshots/shopping-3.png"}
+                            alt="Screenshot of the Shopping Run app"
+                            width={300}
                             height={500}
                             className=' justify-center'
                         />
