@@ -19,7 +19,7 @@ const Page = () => {
                     <div className='flex flex-col p-2  items-center justify-center flex-1'>
                         <h2 className='text-4xl p-2 font-medium' >To-do board</h2>
                         <p className='p-2 text-lg mt-3' >Full stack application of a todo board built with Next.js, React, Clerk, Mongodb, Mongoose and Atlas.</p>
-                        <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-fuchsia hover:bg-fuchsia rounded-md' href={'https://todo-list-ouwon6bdv-jenishspatels-projects.vercel.app/'} target='_blank'>LIVE APP</Link>
+                        <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-fuchsia hover:bg-fuchsia rounded-md' href={'https://todo-list-m01h0usmu-jenishspatels-projects.vercel.app/'} target='_blank'>LIVE APP</Link>
                         <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-fuchsia hover:bg-fuchsia rounded-md' href={'https://github.com/jenishpatel-jp/to-do-list'} target='_blank'>LEARN MORE</Link>
                     </div>
                 </div>
