@@ -12,11 +12,11 @@ const Navigation = () => {
     }
 
     return (
-        <div className='flex flex-row p-3 justify-end bg-stark text-void' >
-            <Link href={"/"} className={`nav ${isActive('/')}`}>Home</Link>
-            <Link href={"/about"} className={`nav ${isActive('/about')}`}>About</Link>
-            <Link href={"../projects"} className={`nav ${isActive('/projects')}`}>Projects</Link>
-            <Link href={"../contact"} className={`nav ${isActive('/contact')}`}>Contact</Link>
+        <div className='flex flex-row p-3 justify-end bg-stark text-void drop-shadow-lg ' >
+            <Link href={"/"} className={`nav ${isActive('/')} text-2xl`}>Home</Link>
+            <Link href={"/about"} className={`nav ${isActive('/about')} text-2xl`}>About</Link>
+            <Link href={"../projects"} className={`nav ${isActive('/projects')} text-2xl`}>Projects</Link>
+            <Link href={"../contact"} className={`nav ${isActive('/contact')} text-2xl`}>Contact</Link>
         </div>
     )
 }
