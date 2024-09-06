@@ -13,10 +13,10 @@ const Navigation = () => {
 
     return (
         <div className='flex flex-row p-3 justify-end bg-stark text-void drop-shadow-lg ' >
-            <Link href={"/"} className={`nav ${isActive('/')} text-2xl`}>Home</Link>
-            <Link href={"/about"} className={`nav ${isActive('/about')} text-2xl`}>About</Link>
-            <Link href={"../projects"} className={`nav ${isActive('/projects')} text-2xl`}>Projects</Link>
-            <Link href={"../contact"} className={`nav ${isActive('/contact')} text-2xl`}>Contact</Link>
+            <Link href={"/"} className={`nav ${isActive('/')} lg:text-2xl text-lg`}>Home</Link>
+            <Link href={"/about"} className={`nav ${isActive('/about')} lg:text-2xl text-lg`}>About</Link>
+            <Link href={"../projects"} className={`nav ${isActive('/projects')} lg:text-2xl text-lg`}>Projects</Link>
+            <Link href={"../contact"} className={`nav ${isActive('/contact')} lg:text-2xl text-lg`}>Contact</Link>
         </div>
     )
 }
