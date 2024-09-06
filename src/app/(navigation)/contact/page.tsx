@@ -82,7 +82,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Name</label>
                 <input 
                 placeholder='John/Jane Doe' 
-                className={`p-3 focus:outline-blue bg-zinc-100 placeholder:text-void rounded-md text-void`}
+                className={`p-3 focus:outline-blue-500 bg-zinc-100 placeholder:text-void rounded-md text-void`}
                 value={name}
                 onChange={handleNameChange}
                 name="user_name"
@@ -91,7 +91,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Email</label>
                 <input 
                 placeholder='email@gmail.com' 
-                className={`p-3 focus:outline-blue bg-zinc-100 placeholder:text-void rounded-md text-void`}
+                className={`p-3 focus:outline-blue-500 bg-zinc-100 placeholder:text-void rounded-md text-void`}
                 value={email}
                 onChange={handleEmailChange}
                 name="user_email"
@@ -100,7 +100,7 @@ const Page = () => {
                 <label className='p-2 text-lg'>Message</label>
                 <textarea 
                 name="message"
-                className={`p-3 focus:outline-blue bg-zinc-100 placeholder:text-void rounded-md text-void`}
+                className={`p-3 focus:outline-blue-500 bg-zinc-100 placeholder:text-void rounded-md text-void`}
                 value={message}
                 onChange={handleMessageChange}
     
