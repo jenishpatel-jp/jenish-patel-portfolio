@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const Page = () => {
     return (
-        <div className='flex flex-col min-h-screen items-center bg-void text-stark'>
-            <h1 className='my-4 text-5xl p-3 w-full text-center underline underline-offset-8 underline-fuchsia' >About</h1>
+        <div className='flex flex-col min-h-screen items-center bg-stark text-void'>
+            <h1 className='my-4 text-5xl p-3 w-full text-center underline underline-offset-8 underline-blue' >About</h1>
             <div className='flex flex-col lg:flex-row w-5/6 mx-3 mt-4 mb-7 flex-1 items-center'>
                 <div className='flex lg:flex-col items-center lg:w-3/5' >
                     <p className='text-left text-xl lg:mt-10 lg:pt-10'>
@@ -32,9 +32,9 @@ const Page = () => {
                             width={100}
                             height={100}
                             alt='HTML'
-                            className='p-2 m-2'
+                            className='p-2 m-2 text-void'
                             />
-                            <p className='hidden lg:inline' >HTML</p>
+                            <p className='hidden lg:inline text-void font-semibold' >HTML</p>
                         </div>
                         <div className='skills' >
                         <Image 
@@ -44,7 +44,7 @@ const Page = () => {
                         alt='CSS'
                         className='p-2 m-2'
                         />
-                        <p className='hidden lg:inline' >CSS</p>
+                        <p className='hidden lg:inline text-void font-semibold' >CSS</p>
                         </div>
                         <div className='skills' >
                         <Image 
@@ -54,7 +54,7 @@ const Page = () => {
                         alt='Javascript'
                         className='p-2 m-2'
                         />
-                        <p className='hidden lg:inline' >Javascript</p>
+                        <p className='hidden lg:inline text-void font-semibold' >Javascript</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -64,7 +64,7 @@ const Page = () => {
                             alt='Redux'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Typescript</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Typescript</p>
                         </div>    
                     </div>
                     <div className='flex p-2 my-4'>
@@ -77,7 +77,7 @@ const Page = () => {
                             alt='React'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>React</p>
+                            <p className='hidden lg:inline text-void font-semibold'>React</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -87,7 +87,7 @@ const Page = () => {
                             alt='Next.JS'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Next.JS</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Next.JS</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -97,7 +97,7 @@ const Page = () => {
                             alt='Redux'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Tailwind CSS</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Tailwind CSS</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -107,7 +107,7 @@ const Page = () => {
                             alt='Git'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Git</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Git</p>
                         </div>
                     </div>
                     <div className='flex p-2 my-4'>
@@ -119,7 +119,7 @@ const Page = () => {
                             alt='Redux'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>Redux</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Redux</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -129,7 +129,7 @@ const Page = () => {
                             alt='React Native'
                             className='p-2 m-2'
                             />
-                            <p className='hidden lg:inline'>React Native</p>
+                            <p className='hidden lg:inline text-void font-semibold'>React Native</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -139,7 +139,7 @@ const Page = () => {
                             alt='Expo Go'
                             className='p-2 m-2 flex-1'
                             />
-                            <p className='hidden lg:inline'>Expo Go</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Expo Go</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -149,7 +149,7 @@ const Page = () => {
                             alt='Expo Go'
                             className='p-2 m-2 flex-1'
                             />
-                            <p className='hidden lg:inline'>Node.js</p>
+                            <p className='hidden lg:inline text-void font-semibold'>Node.js</p>
                         </div>
                     </div>
                     <div className='flex p-2 my-4'>
@@ -161,7 +161,7 @@ const Page = () => {
                             alt='Expo Go'
                             className='p-2 m-2 flex-1'
                             />
-                            <p className='hidden lg:inline'>PostgreSQL</p>
+                            <p className='hidden lg:inline text-void font-semibold'>PostgreSQL</p>
                         </div>
                         <div className='skills' >
                             <Image 
@@ -171,7 +171,7 @@ const Page = () => {
                             alt='MongoDB'
                             className='p-2 m-2 flex-1'
                             />
-                            <p className='hidden lg:inline'>MongoDB</p>
+                            <p className='hidden lg:inline text-void font-semibold'>MongoDB</p>
                         </div>
                     </div>  
                 </div>

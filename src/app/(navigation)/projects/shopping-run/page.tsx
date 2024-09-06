@@ -4,8 +4,8 @@ import React from 'react'
 
 const ShoppingRun = () => {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center bg-void text-stark">
-        <h2 className="text-white w-full text-center text-5xl mb-5 " >
+    <div className="flex flex-col min-h-screen items-center justify-center bg-stark text-void">
+        <h2 className="text-void w-full text-center text-5xl mb-5 " >
           Shopping Run
         </h2>
         <p className='mb-10 text-xl'>Download the Shopping Run app on your Android phone by scanning the QR code below or you can download the app by clicking 
