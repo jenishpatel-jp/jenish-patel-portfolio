@@ -25,153 +25,200 @@ const Page = () => {
                     </p>
                 </div>
                 <div className='flex flex-col p-2 items-center justify-center mx-5 flex-1'>
-                    <div className='flex p-2 my-4'>
+
+                    <div className='flex p-2 mx-2'>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/HTML5-high.png'}
-                            width={100}
-                            height={100}
-                            alt='HTML'
-                            className='p-2 m-2 text-void'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold' >HTML</p>
+                            <div className='bg-stark rounded-lg'>
+                                <Image 
+                                src={'/skills-logo/HTML5-high.png'}
+                                width={100}
+                                height={100}
+                                alt='HTML'
+                                className='p-2 m-2 text-void bg-stark'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold' >HTML</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                        <Image 
-                        src={'/skills-logo/css-high.png'}
-                        width={100}
-                        height={100}
-                        alt='CSS'
-                        className='p-2 m-2'
-                        />
-                        <p className='hidden lg:inline text-void font-semibold' >CSS</p>
+                            <div className='bg-stark rounded-lg'>
+                                <Image 
+                                src={'/skills-logo/css-high.png'}
+                                width={100}
+                                height={100}
+                                alt='CSS'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold' >CSS</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                        <Image 
-                        src={'/skills-logo/Javascript.png'}
-                        width={100}
-                        height={100}
-                        alt='Javascript'
-                        className='p-2 m-2'
-                        />
-                        <p className='hidden lg:inline text-void font-semibold' >Javascript</p>
+                            <div className='bg-stark rounded-lg'>
+                                <Image 
+                                src={'/skills-logo/Javascript.png'}
+                                width={100}
+                                height={100}
+                                alt='Javascript'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold' >Javascript</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/Typescript_logo_2020.svg'}
-                            width={100}
-                            height={100}
-                            alt='Redux'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Typescript</p>
+                            <div className='bg-stark rounded-lg'>    
+                                <Image 
+                                src={'/skills-logo/Typescript_logo_2020.svg'}
+                                width={100}
+                                height={100}
+                                alt='Typescript'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Typescript</p>
+                            </div>
                         </div>    
+
                     </div>
+
+                    <div className='flex p-2'>
+                    
+                        <div className='skills' >
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/React.png'}
+                                width={100}
+                                height={100}
+                                alt='React'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>React</p>
+                            </div>
+                        </div>
+
+                        <div className='skills' >
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/nextjs-logo.png'}
+                                width={100}
+                                height={100}
+                                alt='Next.JS'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Next.JS</p>
+                            </div>
+                        </div>
+
+                        <div className='skills' >
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/tailwind-css.png'}
+                                width={100}
+                                height={100}
+                                alt='Redux'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Tailwind CSS</p>
+                            </div>
+                        </div>
+
+                        <div className='skills' >
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/git.png'}
+                                width={100}
+                                height={100}
+                                alt='Git'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Git</p>
+                            </div>
+                        </div>
+
+                    </div>
+
                     <div className='flex p-2 my-4'>
-                        
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/React.png'}
-                            width={100}
-                            height={100}
-                            alt='React'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>React</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/redux.png'}
+                                width={100}
+                                height={100}
+                                alt='Redux'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Redux</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/nextjs-logo.png'}
-                            width={100}
-                            height={100}
-                            alt='Next.JS'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Next.JS</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/react-native.png'}
+                                width={100}
+                                height={100}
+                                alt='React Native'
+                                className='p-2 m-2'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>React Native</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/tailwind-css.png'}
-                            width={100}
-                            height={100}
-                            alt='Redux'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Tailwind CSS</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/expo-go-app.svg'}
+                                width={100}
+                                height={100}
+                                alt='Expo Go'
+                                className='p-2 m-2 flex-1'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Expo Go</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/git.png'}
-                            width={100}
-                            height={100}
-                            alt='Git'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Git</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/nodejs_light.svg'}
+                                width={100}
+                                height={100}
+                                alt='Expo Go'
+                                className='p-2 m-2 flex-1'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>Node.js</p>
+                            </div>
                         </div>
                     </div>
-                    <div className='flex p-2 my-4'>
+
+                    <div className='flex p-2'>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/redux.png'}
-                            width={100}
-                            height={100}
-                            alt='Redux'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Redux</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/postgres.png'}
+                                width={100}
+                                height={100}
+                                alt='Expo Go'
+                                className='p-2 m-2 flex-1'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>PostgreSQL</p>
+                            </div>
                         </div>
+
                         <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/react-native.png'}
-                            width={100}
-                            height={100}
-                            alt='React Native'
-                            className='p-2 m-2'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>React Native</p>
-                        </div>
-                        <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/expo-go-app.svg'}
-                            width={100}
-                            height={100}
-                            alt='Expo Go'
-                            className='p-2 m-2 flex-1'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Expo Go</p>
-                        </div>
-                        <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/nodejs_light.svg'}
-                            width={100}
-                            height={100}
-                            alt='Expo Go'
-                            className='p-2 m-2 flex-1'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>Node.js</p>
-                        </div>
-                    </div>
-                    <div className='flex p-2 my-4'>
-                        <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/postgres.png'}
-                            width={100}
-                            height={100}
-                            alt='Expo Go'
-                            className='p-2 m-2 flex-1'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>PostgreSQL</p>
-                        </div>
-                        <div className='skills' >
-                            <Image 
-                            src={'/skills-logo/mongodb.svg'}
-                            width={100}
-                            height={100}
-                            alt='MongoDB'
-                            className='p-2 m-2 flex-1'
-                            />
-                            <p className='hidden lg:inline text-void font-semibold'>MongoDB</p>
+                            <div className='bg-stark rounded-lg flex-1'>
+                                <Image 
+                                src={'/skills-logo/mongodb.svg'}
+                                width={100}
+                                height={100}
+                                alt='MongoDB'
+                                className='p-2 m-2 flex-1'
+                                />
+                                <p className='hidden lg:inline text-void font-semibold'>MongoDB</p>
+                            </div>
                         </div>
                     </div>  
                 </div>
