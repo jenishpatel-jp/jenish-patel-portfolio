@@ -29,7 +29,7 @@ const Page = () => {
                     <div className='flex p-2 mx-2'>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col'>
                                 <Image 
                                 src={'/skills-logo/HTML5-high.png'}
                                 width={100}
@@ -42,7 +42,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg'>
+                            <div className='bg-stark rounded-lg flex-1'>
                                 <Image 
                                 src={'/skills-logo/css-high.png'}
                                 width={100}
@@ -55,7 +55,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg'>
+                            <div className='bg-stark rounded-lg flex-1'>
                                 <Image 
                                 src={'/skills-logo/Javascript.png'}
                                 width={100}
@@ -68,7 +68,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg'>    
+                            <div className='bg-stark rounded-lg flex-1'>    
                                 <Image 
                                 src={'/skills-logo/Typescript_logo_2020.svg'}
                                 width={100}
