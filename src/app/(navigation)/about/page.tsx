@@ -29,20 +29,20 @@ const Page = () => {
                     <div className='flex p-2 mx-2'>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/HTML5-high.png'}
                                 width={100}
                                 height={100}
                                 alt='HTML'
-                                className='p-2 m-2 text-void bg-stark'
+                                className='p-2 m-2 bg-stark'
                                 />
-                                <p className='hidden lg:inline text-void font-semibold' >HTML</p>
+                                <p className='hidden lg:inline-block text-void font-semibold' >HTML</p>
                             </div>
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/css-high.png'}
                                 width={100}
@@ -55,7 +55,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/Javascript.png'}
                                 width={100}
@@ -68,7 +68,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>    
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>    
                                 <Image 
                                 src={'/skills-logo/Typescript_logo_2020.svg'}
                                 width={100}
@@ -85,7 +85,7 @@ const Page = () => {
                     <div className='flex p-2'>
                     
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/React.png'}
                                 width={100}
@@ -98,7 +98,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/nextjs-logo.png'}
                                 width={100}
@@ -111,7 +111,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/tailwind-css.png'}
                                 width={100}
@@ -119,12 +119,12 @@ const Page = () => {
                                 alt='Redux'
                                 className='p-2 m-2'
                                 />
-                                <p className='hidden lg:inline text-void font-semibold'>Tailwind CSS</p>
+                                <p className='hidden lg:inline-block text-void font-semibold'>Tailwind CSS</p>
                             </div>
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/git.png'}
                                 width={100}
@@ -141,7 +141,7 @@ const Page = () => {
                     <div className='flex p-2 my-4'>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/redux.png'}
                                 width={100}
@@ -154,7 +154,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/react-native.png'}
                                 width={100}
@@ -167,7 +167,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/expo-go-app.svg'}
                                 width={100}
@@ -180,7 +180,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/nodejs_light.svg'}
                                 width={100}
@@ -196,7 +196,7 @@ const Page = () => {
                     <div className='flex p-2'>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/postgres.png'}
                                 width={100}
@@ -209,7 +209,7 @@ const Page = () => {
                         </div>
 
                         <div className='skills' >
-                            <div className='bg-stark rounded-lg flex-1'>
+                            <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/mongodb.svg'}
                                 width={100}

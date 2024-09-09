@@ -8,7 +8,7 @@
   }
 
   .skills {
-    @apply flex flex-col justify-between items-center text-white text-center bg-gradient-to-r from-cyan-500 to-blue-500 p-1 rounded-lg m-2 hover:bg-gradient-to-bl
+    @apply flex flex-col items-center text-white text-center bg-gradient-to-r from-cyan-500 to-blue-500 p-1 rounded-lg m-2 hover:bg-gradient-to-bl
   }
 
   :root {
