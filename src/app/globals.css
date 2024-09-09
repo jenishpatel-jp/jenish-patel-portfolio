@@ -8,7 +8,11 @@
   }
 
   .skills {
-    @apply flex flex-col items-center text-white text-center bg-gradient-to-r from-cyan-500 to-blue-500 p-1 rounded-lg m-2 hover:bg-gradient-to-bl
+    @apply flex flex-col items-center text-white text-center bg-gradient-to-r from-cyan-500 to-blue-500 p-1 rounded-lg m-2 hover:bg-gradient-to-bl;
+    min-width: 120px;
+    max-width: 150px;
+    min-height: 120px;
+    max-height: 150px;
   }
 
   :root {

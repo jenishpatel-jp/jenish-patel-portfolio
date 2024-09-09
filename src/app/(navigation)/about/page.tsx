@@ -24,6 +24,7 @@ const Page = () => {
                         Feel free to explore my portfolio and see the projects I have been working on! 
                     </p>
                 </div>
+
                 <div className='flex flex-col p-2 items-center justify-center mx-5 flex-1'>
 
                     <div className='flex p-2 mx-2'>
@@ -170,8 +171,8 @@ const Page = () => {
                             <div className='bg-stark rounded-lg flex-1 flex justify-center flex-col items-center'>
                                 <Image 
                                 src={'/skills-logo/expo-go-app.svg'}
-                                width={100}
-                                height={100}
+                                width={90}
+                                height={90}
                                 alt='Expo Go'
                                 className='p-2 m-2 flex-1'
                                 />
@@ -185,7 +186,7 @@ const Page = () => {
                                 src={'/skills-logo/nodejs_light.svg'}
                                 width={100}
                                 height={100}
-                                alt='Expo Go'
+                                alt='Node.js'
                                 className='p-2 m-2 flex-1'
                                 />
                                 <p className='hidden lg:inline text-void font-semibold'>Node.js</p>
@@ -201,7 +202,7 @@ const Page = () => {
                                 src={'/skills-logo/postgres.png'}
                                 width={100}
                                 height={100}
-                                alt='Expo Go'
+                                alt='PostgreSQL'
                                 className='p-2 m-2 flex-1'
                                 />
                                 <p className='hidden lg:inline text-void font-semibold'>PostgreSQL</p>
