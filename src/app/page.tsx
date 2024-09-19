@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-center bg-stark">
@@ -7,6 +9,10 @@ export default function Home() {
         <h2 className="text-void w-full text-center text-5xl">
           I&apos;m a Full Stack Developer.
         </h2>
+        <Link href={'/projects'}>
+          <button className="btn bg-blue-500 text-stark mt-6 rounded-xl shadow-lg text-lg drop-shadow-lg">View Projects</button>
+        </Link>
+        
     </main>
   );
 }
