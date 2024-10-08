@@ -12,13 +12,12 @@ const Page = () => {
                         <br/>
                         I studied Accounting and Finance 
                         in university and gained valuble experience in Customer Service through work experience. 
-                        Now I am transitioning into the dynamic world of coding. 
                         <br/>
                         <br/>
-                        I am passionate about Javascript, React, and all things web development. I am dedicated to developing apps that enhance efficiency and simplify everyday tasks. 
+                        I am passionate about learning new technologies and creating applications to streamline processes.  
                         <br/>
                         <br/>
-                        In my spare time, I love to travel, explore diverse restaurants and bars around Melbourne, and gaming.
+                        In my spare time I love playing Mario Kart, Catan and going to pubs for a cheeky afternoon beer.
                         <br/>
                         <br/>
                         Feel free to explore my portfolio and see the projects I have been working on! 
