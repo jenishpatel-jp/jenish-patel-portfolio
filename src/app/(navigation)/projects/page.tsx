@@ -24,7 +24,7 @@ const Page = () => {
                         <div className='flex flex-col p-2  items-center justify-center flex-1'>
                             <h2 className='text-4xl p-2 font-medium' >To-do board</h2>
                             <p className='p-2 text-lg mt-3' >Full stack application of a todo board built with Next.js, React, Clerk, Mongodb, Mongoose and Atlas.</p>
-                            <p className='p-2 text-lg mt-3' >You will need to login with your Google account or create an account with your email address in order to access the Todo board as each user has access to their own todo's.</p>
+                            <p className='p-2 text-lg' >You will need to login with your Google account or create an account with your email address in order to access the Todo board as each user has access to their own todo&apos;s.</p>
                             <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-blue hover:bg-blue-400 rounded-md' href={'https://todo-list-m01h0usmu-jenishspatels-projects.vercel.app/'} target='_blank'>LIVE APP</Link>
                             <Link className='p-2 m-2 text-xl underline underline-offset-8 underline-blue hover:bg-blue-400 rounded-md' href={'https://github.com/jenishpatel-jp/to-do-list'} target='_blank'>LEARN MORE</Link>
                         </div>
