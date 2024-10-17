@@ -20,6 +20,9 @@ const ShoppingRun = () => {
         className=' justify-center'
         />
         <h3 className='my-10 text-xl' >Currently only available to download on Android.</h3>
+        <Link href={'/projects#slide2'}>
+          <button className="btn bg-blue-500 text-stark mt-6 rounded-xl shadow-lg text-lg drop-shadow-lg">View Projects</button>
+        </Link>
     </div>
   )
 }
