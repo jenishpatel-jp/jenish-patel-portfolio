@@ -2,6 +2,7 @@ import Link from "next/link";
 import Hero from "./components/Hero";
 import ShoppingRun from "./components/ShoppingRun";
 import STT from "./components/STT";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <STT />
       </div>
       <div className="w-full h-screen bg-yellow-200" >
-
+        <Contact />
       </div>
 
     </main>
