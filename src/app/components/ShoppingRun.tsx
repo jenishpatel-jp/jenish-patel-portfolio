@@ -1,9 +1,10 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 const ShoppingRun = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full' >
-        <h1 className='text-black'>Shopping Run</h1>
+        <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
     </div>
   )
 }
