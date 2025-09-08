@@ -16,13 +16,16 @@ const ShoppingRun = () => {
         <Carousel>
           <CarouselContent>
             <CarouselItem className='flex justify-center'>
+              <Image src="/images/shopping-run/shopping-run-4.png" alt="Shopping Run Screenshot" width={400} height={600} />
+            </CarouselItem>
+            <CarouselItem className='flex justify-center'>
+              <Image src="/images/shopping-run/shopping-run-6.png" alt="Shopping Run Screenshot" width={400} height={600} />
+            </CarouselItem>
+            <CarouselItem className='flex justify-center'>
               <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
             <CarouselItem className='flex justify-center'>
               <Image src="/images/shopping-run/shopping-run-2.png" alt="Shopping Run Screenshot" width={400} height={600} />
-            </CarouselItem>
-            <CarouselItem className='flex justify-center'>
-              <Image src="/images/shopping-run/shopping-run-3.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
