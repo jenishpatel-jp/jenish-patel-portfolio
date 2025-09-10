@@ -25,7 +25,16 @@ const ShoppingRun = () => {
               <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
             <CarouselItem className='flex justify-center'>
+              <Image src="/images/shopping-run/shopping-run-8.png" alt="Shopping Run Screenshot" width={400} height={600} />
+            </CarouselItem>
+            <CarouselItem className='flex justify-center'>
               <Image src="/images/shopping-run/shopping-run-2.png" alt="Shopping Run Screenshot" width={400} height={600} />
+            </CarouselItem>
+            <CarouselItem className='flex justify-center'>
+              <Image src="/images/shopping-run/shopping-run-7.png" alt="Shopping Run Screenshot" width={400} height={600} />
+            </CarouselItem>
+            <CarouselItem className='flex justify-center'>
+              <Image src="/images/shopping-run/shopping-run-9.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
