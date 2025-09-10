@@ -11,20 +11,29 @@ import {
 
 const STT = () => {
   return (
-    <div className='text-xl items-center justify-center flex-1 flex h-full' >
+    <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
+        <h1 className='p-5 m-5 text-3xl'>Shroomless Time Trial</h1>
         
-        <Carousel>
+        <Carousel
+          opts={{
+            align: "start",
+            containScroll: "trimSnaps",
+            loop: true,
+            
+            }}
+          className="w-full max-w-6xl"
+        >
             <CarouselContent>
-              <CarouselItem className='flex justify-center'>
+              <CarouselItem className='flex justify-center basis-full'>
                 <Image src="/images/stt/STT-4.png" alt="Shopping Run Screenshot" width={400} height={600} />
               </CarouselItem>
-              <CarouselItem className='flex justify-center'>
+              <CarouselItem className='flex justify-center basis-full'>
                 <Image src="/images/stt/STT-3.png" alt="Shopping Run Screenshot" width={400} height={600} />
               </CarouselItem>
-              <CarouselItem className='flex justify-center'>
+              <CarouselItem className='flex justify-center basis-full'>
                 <Image src="/images/stt/STT-2.png" alt="Shopping Run Screenshot" width={400} height={600} />
               </CarouselItem>
-              <CarouselItem className='flex justify-center'>
+              <CarouselItem className='flex justify-center basis-full'>
                 <Image src="/images/stt/STT-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
               </CarouselItem>
             </CarouselContent>
