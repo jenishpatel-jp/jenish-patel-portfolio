@@ -11,30 +11,36 @@ import {
 
 const ShoppingRun = () => {
   return (
-    <div className='text-xl items-center justify-center flex-1 flex h-full' >
+    <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
+        <h1 className='p-10 text-3xl'>Shopping Run</h1>
 
-        <Carousel>
+        <Carousel
+          opts={{
+            align: "start",
+            containScroll: "trimSnaps",
+            loop: true,
+            
+            }}
+          className="w-full max-w-6xl"
+        >
           <CarouselContent>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-4.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-6.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-8.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-2.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center'>
+            <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3">'>
               <Image src="/images/shopping-run/shopping-run-7.png" alt="Shopping Run Screenshot" width={400} height={600} />
-            </CarouselItem>
-            <CarouselItem className='flex justify-center'>
-              <Image src="/images/shopping-run/shopping-run-9.png" alt="Shopping Run Screenshot" width={400} height={600} />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
