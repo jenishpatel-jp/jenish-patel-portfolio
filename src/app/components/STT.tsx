@@ -40,6 +40,8 @@ const STT = () => {
             <CarouselPrevious />
             <CarouselNext />
         </Carousel>
+        <p className='text-lg'>This is my Shroomless Time Trial app. Designed to help keep track of your mario kart 8 shroomless time trial times</p>
+        <p className='text-lg'>Technologies: Expo, React Native Framework</p>
 
     </div>
   )

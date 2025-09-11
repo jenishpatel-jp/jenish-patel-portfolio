@@ -46,7 +46,9 @@ const ShoppingRun = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        
+        <p className='text-lg'>This is my Shopping Run app. Created so I can create a shopping list for the different stores we go to.</p>
+        <p className='text-lg'>Has both dark and light mode styling</p>
+        <p className='text-lg'>Technologies: Expo, React Native Framework</p>
     </div>
   )
 }
