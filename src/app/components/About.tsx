@@ -32,37 +32,34 @@ const About = () => {
         >
           <CarouselContent>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/HTML5-high.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/HTML5-high.png" alt="HTML logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/css-high.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/css-high.png" alt="CSS logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/javascript.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/Javascript.png" alt="Javascript logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/typescript.svg" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/typescript.svg" alt="Typescript logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/HTML5-high.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/react.png" alt="React logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/react.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/expo-go-app.svg" alt="Expo logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/expo-go-app.svg" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/nextjs-logo.png" alt="Next js logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/nextjs-logo.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/postgres.png" alt="Postgres logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/postgres.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/mongodb.svg" alt="Mongodb logo" width={50} height={40} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/mongodb.svg" alt="Shopping Run Screenshot" width={50} height={40} />
-            </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
-              <Image src="/images/skills-logo/tailwind-css.png" alt="Shopping Run Screenshot" width={50} height={40} />
+              <Image src="/images/skills-logo/tailwind-css.png" alt="Tailwind css logo" width={50} height={40} />
             </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
