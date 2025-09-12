@@ -12,9 +12,15 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
+
+      <div className='flex-1 flex flex-col items-center justify-center'>
         <h1 className='text-black'>Hello I&apos;m Jenish Patel</h1>
         <p>I am a wanna be software developer</p>
         <p>I have been learning and I would like to continue to keep learning</p>
+      </div>
+
+
+      <div className='w-full max-w-6xl mx-auto mb-20 p-5'>
         <Carousel
           opts={{
             align: "start",
@@ -22,7 +28,7 @@ const About = () => {
             loop: true,
             
             }}
-          className="w-full max-w-6xl mt-10"
+          className="w-full"
         >
           <CarouselContent>
             <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
@@ -62,6 +68,7 @@ const About = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+      </div>
     </div>
   )
 }
