@@ -13,9 +13,20 @@ const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
 
+      <div className='w-48 h-48 mt-10 overflow-hidden rounded-full'>
+        <Image
+          src="/images/profile/jenish_patel_bw.jpg"
+          alt="Profile picture of Jenish Patel"
+          width={200}
+          height={200}
+          className='object-cover'
+          />
+      </div>
+
       <div className='flex-1 flex flex-col items-center justify-center'>
-        <p className='text-2xl p-2'>I am on a road of continous self improvment. I have found joy in creating applications that benefit and make my life easier.</p>
-        <p className='text-2xl p-2'>Using Expo, a React Native framework, I have been creating apps which I find helpful with different tasks in my life.</p>
+        <p className='text-2xl p-3'>I am on a road of continous self improvment and always looking to grow.</p>
+        <p className='text-2xl p-3'>I'm enjoying learning new skills and creating applications that are helpful and makes my life easier</p>
+        <p className='text-2xl p-3 mb-10'>Using Expo, a React Native framework, I have been creating apps which I find helpful with different tasks in my life.</p>
       </div>
 
 
