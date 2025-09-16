@@ -9,6 +9,8 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
+import { Button } from '@/components/ui/button';
+
 const ShoppingRun = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
@@ -49,6 +51,13 @@ const ShoppingRun = () => {
         <p className='text-lg'>This is my Shopping Run app. Created so I can create a shopping list for the different stores we go to.</p>
         <p className='text-lg'>Has both dark and light mode</p>
         <p className='text-lg'>Technologies: Expo, React Native Framework</p>
+        <div className='flex space-x-10 mt-5 justify-center items-center'>
+          <Button className='w-25 h-10 rounded-lg justify-center items-center flex'>
+            <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
+              GitHub
+          </Button>
+          <Button className='w-25 h-10 rounded-lg justify-center items-center'>Android SDK</Button>
+        </div>
     </div>
   )
 }
