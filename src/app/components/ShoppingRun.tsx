@@ -25,23 +25,23 @@ const ShoppingRun = () => {
         >
           <CarouselContent>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-4.png" alt="Shopping Run Screenshot" width={400} height={600} />
+              <Image src="/images/shopping-run/shopping-run-4.png" alt="Shopping Run Screenshot" width={300} height={500} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-6.png" alt="Shopping Run Screenshot" width={400} height={600} />
+              <Image src="/images/shopping-run/shopping-run-6.png" alt="Shopping Run Screenshot" width={300} height={500} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={400} height={600} />
+              <Image src="/images/shopping-run/shopping-run-1.png" alt="Shopping Run Screenshot" width={300} height={500} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-8.png" alt="Shopping Run Screenshot" width={400} height={600} />
+              <Image src="/images/shopping-run/shopping-run-8.png" alt="Shopping Run Screenshot" width={300} height={500} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-2.png" alt="Shopping Run Screenshot" width={400} height={600} />
+              <Image src="/images/shopping-run/shopping-run-2.png" alt="Shopping Run Screenshot" width={300} height={500} />
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
-              <Image src="/images/shopping-run/shopping-run-7.png" alt="Shopping Run Screenshot" width={400} height={600} />
-            </CarouselItem>
+              <Image src="/images/shopping-run/shopping-run-7.png" alt="Shopping Run Screenshot" width={300} height={500} />
+            </CarouselItem>500
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
