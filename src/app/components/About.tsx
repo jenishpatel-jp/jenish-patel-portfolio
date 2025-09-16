@@ -25,7 +25,7 @@ const About = () => {
 
       <div className='flex-1 flex flex-col items-center justify-center'>
         <p className='text-2xl p-3'>I am on a road of continous self improvment and always looking to grow.</p>
-        <p className='text-2xl p-3'>I'm enjoying learning new skills and creating applications that are helpful and makes my life easier</p>
+        <p className='text-2xl p-3'>I&apos;m enjoying learning new skills and creating applications that are helpful and makes my life easier</p>
         <p className='text-2xl p-3 mb-10'>Using Expo, a React Native framework, I have been creating apps which I find helpful with different tasks in my life.</p>
       </div>
 
