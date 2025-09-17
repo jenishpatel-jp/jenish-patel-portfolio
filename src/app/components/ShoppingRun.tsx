@@ -58,11 +58,11 @@ const ShoppingRun = () => {
                 GitHub
             </Link>
           </Button>
-          <Button >
+          {/* <Button >
             <Link href='https://expo.dev/accounts/jpcodingboy/projects/shroomless-time-trials/builds/6c4e41ef-ad3e-4b38-ad32-f1ab0866789a' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
                 Android SDK
             </Link>
-          </Button>
+          </Button> */}
         </div>
     </div>
   )
