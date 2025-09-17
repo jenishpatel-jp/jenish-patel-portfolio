@@ -41,8 +41,8 @@ const STT = () => {
             <CarouselPrevious />
             <CarouselNext />
         </Carousel>
-        <p className='text-lg'>This is my Shroomless Time Trial app. Designed to help keep track of your mario kart 8 shroomless time trial times</p>
-        <p className='text-lg'>Technologies: Expo, React Native Framework</p>
+        <p className='text-lg'>Full Stack Mobile app to record shroomless time trial runs in Mario Kart 8 Deluxe.</p>
+        <p className='text-lg'>Built with Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
           <Button className='w-25 h-10 rounded-lg justify-center items-center flex'>
             <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
