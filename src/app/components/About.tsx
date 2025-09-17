@@ -24,9 +24,9 @@ const About = () => {
       </div>
 
       <div className='flex-1 flex flex-col items-center justify-center'>
-        <p className='text-2xl p-3'>I am on a road of continous self improvment and always looking to grow.</p>
-        <p className='text-2xl p-3'>I&apos;m enjoying learning new skills and creating applications that are helpful and makes my life easier</p>
-        <p className='text-2xl p-3 mb-10'>Using Expo, a React Native framework, I have been creating apps which I find helpful with different tasks in my life.</p>
+        <p className='text-2xl p-3'>I&apos;m a self-taught full stack developer driven by curiosity and a love of building things that solve real problems.</p>
+        <p className='text-2xl p-3'>My projects often start as ideas to improve my own life, and grow into polished applications where I get to experiment with new technologies.</p>
+        <p className='text-2xl p-3'>Continuous improvement is what motivates me, whether it&apos;s refining my code, learning a new framework, or even sharpening my skills in Chess and Mario Kart.</p>
       </div>
 
 
