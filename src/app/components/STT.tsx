@@ -9,6 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const STT = () => {
   return (
@@ -44,11 +45,17 @@ const STT = () => {
         <p className='text-lg'>Full Stack Mobile app to record shroomless time trial runs in Mario Kart 8 Deluxe.</p>
         <p className='text-lg'>Built with Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
-          <Button className='w-25 h-10 rounded-lg justify-center items-center flex'>
-            <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
-              GitHub
+          <Button>
+            <Link href='https://github.com/jenishpatel-jp/shroomless-time-trials' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
+              <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
+                GitHub
+            </Link>
           </Button>
-          <Button className='w-25 h-10 rounded-lg justify-center items-center'>Android SDK</Button>
+          <Button >
+            <Link href='https://expo.dev/accounts/jpcodingboy/projects/shroomless-time-trials/builds/6c4e41ef-ad3e-4b38-ad32-f1ab0866789a' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
+                Android SDK
+            </Link>
+          </Button>
         </div>
     </div>
   )
