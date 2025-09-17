@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel"
 
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const ShoppingRun = () => {
   return (
@@ -51,9 +52,11 @@ const ShoppingRun = () => {
         <p className='text-lg'>Full Stack Mobile app created to help create a shopping list to purchase items from different stores.</p>
         <p className='text-lg'>Created using Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
-          <Button className='w-25 h-10 rounded-lg justify-center items-center flex'>
-            <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
-              GitHub
+          <Button>
+              <Link href='https://github.com/jenishpatel-jp/shopping-run' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
+              <Image src="/images/github/github-mark-white.png" alt="GitHub logo" width={20} height={20} className='mr-2'/>
+                GitHub
+            </Link>
           </Button>
           <Button className='w-25 h-10 rounded-lg justify-center items-center'>Android SDK</Button>
         </div>
