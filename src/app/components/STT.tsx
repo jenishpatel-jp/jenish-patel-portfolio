@@ -26,16 +26,16 @@ const STT = () => {
         >
             <CarouselContent>
               <CarouselItem className='flex justify-center basis-full'>
-                <Image src="/images/stt/STT-4.png" alt="Shopping Run Screenshot" width={300} height={500} />
+                <Image src="/images/stt/STT-4.png" alt="Mario Kart 8 original maps" width={300} height={500} />
               </CarouselItem>
               <CarouselItem className='flex justify-center basis-full'>
-                <Image src="/images/stt/STT-3.png" alt="Shopping Run Screenshot" width={300} height={500} />
-              </CarouselItem>500
-              <CarouselItem className='flex justify-center basis-full'>
-                <Image src="/images/stt/STT-2.png" alt="Shopping Run Screenshot" width={300} height={500} />
+                <Image src="/images/stt/STT-3.png" alt="Mario Kart 8 Deluxe maps" width={300} height={500} />
               </CarouselItem>
               <CarouselItem className='flex justify-center basis-full'>
-                <Image src="/images/stt/STT-1.png" alt="Shopping Run Screenshot" width={300} height={500} />
+                <Image src="/images/stt/STT-2.png" alt="Big Blue time trial runs" width={300} height={500} />
+              </CarouselItem>
+              <CarouselItem className='flex justify-center basis-full'>
+                <Image src="/images/stt/STT-1.png" alt="Shy guy falls time trial runs" width={300} height={500} />
               </CarouselItem>
             </CarouselContent>
             <CarouselPrevious />
