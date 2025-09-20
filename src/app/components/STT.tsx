@@ -14,7 +14,7 @@ import Link from 'next/link';
 const STT = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
-        <h1 className='p-5 m-5 text-3xl font-semibold'>Shroomless Time Trial</h1>
+        <h1 className='p-5 m-5 text-3xl font-semibold font-mono'>Shroomless Time Trial</h1>
         
         <Carousel
           opts={{
@@ -42,8 +42,8 @@ const STT = () => {
             <CarouselPrevious />
             <CarouselNext />
         </Carousel>
-        <p className='text-xl text-void'>Full Stack Mobile app to record shroomless time trial runs in Mario Kart 8 Deluxe.</p>
-        <p className='text-xl text-void'>Built with Expo, React Native and SQLite.</p>
+        <p className='text-xl text-void font-mono'>Full Stack Mobile app to record shroomless time trial runs in Mario Kart 8 Deluxe.</p>
+        <p className='text-xl text-void font-mono'>Built with Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
           <Button>
             <Link href='https://github.com/jenishpatel-jp/shroomless-time-trials' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
