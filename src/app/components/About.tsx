@@ -24,9 +24,10 @@ const About = () => {
       </div>
 
       <div className='flex-1 flex flex-col items-center justify-center'>
-        <p className='text-2xl p-3'>I&apos;m a self-taught full stack developer driven by curiosity and a love of building things that solve real problems.</p>
-        <p className='text-2xl p-3'>My projects often start as ideas to improve my own life, and grow into polished applications where I get to experiment with new technologies.</p>
-        <p className='text-2xl p-3'>Continuous improvement is what motivates me, whether it&apos;s refining my code, learning a new framework, or even sharpening my skills in Chess and Mario Kart.</p>
+        <p className='text-2xl p-3 font-mono text-void'>I&apos;m a self-taught full stack developer driven by curiosity and a love of building things that solve real problems.</p>
+        <p className='text-2xl p-3 font-mono text-void'>My projects often start as ideas to improve my own life, and grow into polished applications where I get to experiment with new technologies.</p>
+        <p className='text-2xl p-3 font-mono text-void'>Continuous improvement is what motivates me, whether it&apos;s refining my code, learning a new framework, </p>
+        <p className='text-2xl p-3 font-mono text-void'>or even sharpening my skills in Chess and Mario Kart.</p>
       </div>
 
 
