@@ -15,7 +15,7 @@ import Link from 'next/link';
 const ShoppingRun = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
-        <h1 className='p-5 m-5 text-3xl'>Shopping Run</h1>
+        <h1 className='p-5 m-5 text-3xl font-semibold text-void'>Shopping Run</h1>
 
         <Carousel
           opts={{
@@ -49,8 +49,8 @@ const ShoppingRun = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <p className='text-lg'>Full Stack Mobile app created to help create a shopping list to purchase items from different stores.</p>
-        <p className='text-lg'>Created using Expo, React Native and SQLite.</p>
+        <p className='text-xl text-void'>Full Stack Mobile app created to help create a shopping list to purchase items from different stores.</p>
+        <p className='text-xl text-void'>Created using Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
           <Button>
               <Link href='https://github.com/jenishpatel-jp/shopping-run' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
