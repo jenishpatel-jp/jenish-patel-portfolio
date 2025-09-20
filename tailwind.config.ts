@@ -30,6 +30,10 @@ const config: Config = {
   			void: '#0E0B16',
   			fuchsia: '#A239CA',
   			stark: '#E7DFDD',
+			primaryPurple: '#6757D4',
+			primaryPink: '#F77AD8',
+			primaryWhite: '#FFFAD8',
+
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
