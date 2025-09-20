@@ -33,6 +33,7 @@ const config: Config = {
 			primaryPurple: '#6757D4',
 			primaryPink: '#F77AD8',
 			primaryWhite: '#FFFAD8',
+			primaryCream: '#F9E3AD',
 
   			card: {
   				DEFAULT: 'hsl(var(--card))',

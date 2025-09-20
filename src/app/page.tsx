@@ -20,9 +20,9 @@ export default function Home() {
       <div className="w-full h-screen bg-gradient-to-r from-primaryPurple via-primaryPink to-primaryWhite" >
         <STT />
       </div>
-      <div className="w-full h-screen bg-gradient-to-r from-primaryPurple via-primaryPink to-primaryWhite" >
+      {/* <div className="w-full h-screen bg-gradient-to-r from-primaryPurple via-primaryPink to-primaryWhite" >
         <Contact />
-      </div>
+      </div> */}
 
     </main>
   );
