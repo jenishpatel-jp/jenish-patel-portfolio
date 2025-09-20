@@ -15,7 +15,7 @@ import Link from 'next/link';
 const ShoppingRun = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
-        <h1 className='p-5 m-5 text-3xl font-semibold text-void font-mono'>Shopping Run</h1>
+        <h1 className='p-5 m-5 text-3xl font-medium text-void font-mono'>Shopping Run</h1>
 
         <Carousel
           opts={{
