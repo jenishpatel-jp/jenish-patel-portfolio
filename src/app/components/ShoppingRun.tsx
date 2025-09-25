@@ -44,13 +44,13 @@ const ShoppingRun = () => {
             </CarouselItem>
             <CarouselItem className='flex justify-center md:basis-1/3 lg:basis-1/3'>
               <Image src="/images/shopping-run/shopping-run-7.png" alt="Shopping Run Screenshot" width={300} height={500} />
-            </CarouselItem>500
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <p className='text-xl text-void font-mono'>Full Stack Mobile app created to help create a shopping list to purchase items from different stores.</p>
-        <p className='text-xl text-void font-mono'>Created using Expo, React Native and SQLite.</p>
+        <p className='text-xl text-void font-mono text-center p-2'>Full Stack Mobile app created to help create a shopping list to purchase items from different stores.</p>
+        <p className='text-xl text-void font-mono text-center p-2'>Created using Expo, React Native and SQLite.</p>
         <div className='flex space-x-10 mt-5 justify-center items-center'>
           <Button>
               <Link href='https://github.com/jenishpatel-jp/shopping-run' target='_blank' className='w-25 h-10 rounded-lg justify-center items-center flex'>
