@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
 
-      <div className='w-48 h-48 mt-10 overflow-hidden rounded-full'>
+      <div className='lg:w-48 lg:h-48 w-21 h-21 lg:mt-10  mt-5 overflow-hidden rounded-full'>
         <Image
           src="/images/profile/jenish_patel_bw.jpg"
           alt="Profile picture of Jenish Patel"
@@ -24,10 +24,10 @@ const About = () => {
       </div>
 
       <div className='flex-1 flex flex-col items-center justify-center'>
-        <p className='text-2xl p-3 font-mono text-void'>I&apos;m a self-taught full stack developer driven by curiosity and a love of building things that solve real problems.</p>
-        <p className='text-2xl p-3 font-mono text-void'>My projects often start as ideas to improve my own life, and grow into polished applications where I get to experiment with new technologies.</p>
-        <p className='text-2xl p-3 font-mono text-void'>Continuous improvement is what motivates me, whether it&apos;s refining my code, learning a new framework, </p>
-        <p className='text-2xl p-3 font-mono text-void'>or even sharpening my skills in Chess and Mario Kart.</p>
+        <p className='lg:text-2xl p-3 font-mono text-void'>I&apos;m a self-taught full stack developer driven by curiosity and a love of building things that solve real problems.</p>
+        <p className='lg:text-2xl p-3 font-mono text-void'>My projects often start as ideas to improve my own life, and grow into polished applications where I get to experiment with new technologies.</p>
+        <p className='lg:text-2xl p-3 font-mono text-void'>Continuous improvement is what motivates me, whether it&apos;s refining my code, learning a new framework, </p>
+        <p className='lg:text-2xl p-3 font-mono text-void'>or even sharpening my skills in Chess and Mario Kart.</p>
       </div>
 
 
