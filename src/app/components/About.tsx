@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
 
-      <div className='lg:w-48 lg:h-48 w-21 h-21 lg:mt-10 mt-5 overflow-hidden rounded-full'>
+      <div className='lg:w-48 lg:h-48 w-25 h-25 lg:mt-10 mt-5 overflow-hidden rounded-full'>
         <Image
           src="/images/profile/jenish_patel_bw.jpg"
           alt="Profile picture of Jenish Patel"
@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
 
-      <div className='w-full max-w-6xl mx-auto mb-20 p-5'>
+      <div className='w-full max-w-6xl mx-auto mb-5 lg:mb-20 p-3 lg:p-5'>
         <Carousel
           opts={{
             align: "start",
@@ -42,34 +42,34 @@ const About = () => {
           className="w-full"
         >
           <CarouselContent >
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/HTML5-high.png" alt="HTML logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/css-high.png" alt="CSS logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/Javascript.png" alt="Javascript logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/typescript.svg" alt="Typescript logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/React.png" alt="React logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/expo-go-app.svg" alt="Expo logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/nextjs-logo.png" alt="Next js logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/postgres.png" alt="Postgres logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/mongodb.svg" alt="Mongodb logo" width={80} height={60} />
             </CarouselItem>
-            <CarouselItem className='flex justify-center md:basis-1/6 lg:basis-1/6'>
+            <CarouselItem className='flex justify-center basis-1/3 md:basis-1/6 lg:basis-1/6'>
               <Image src="/images/skills-logo/tailwind-css.png" alt="Tailwind css logo" width={80} height={60} />
             </CarouselItem>
           </CarouselContent>
