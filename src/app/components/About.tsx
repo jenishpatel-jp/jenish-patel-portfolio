@@ -13,12 +13,11 @@ const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
 
-      <div className='lg:w-48 lg:h-48 w-25 h-25 lg:mt-10 mt-5 overflow-hidden rounded-full'>
+      <div className='relative lg:w-48 lg:h-48 w-40 h-40 lg:mt-10 mt-5 overflow-hidden rounded-full'>
         <Image
           src="/images/profile/jenish_patel_bw.jpg"
           alt="Profile picture of Jenish Patel"
-          width={200}
-          height={200}
+          fill
           className='object-cover'
           />
       </div>
