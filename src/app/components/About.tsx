@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex h-full flex-col' >
 
-      <div className='relative lg:w-48 lg:h-48 w-40 h-40 lg:mt-10 mt-5 overflow-hidden rounded-full'>
+      <div className='relative lg:w-60 lg:h-60 w-40 h-40 lg:mt-10 mt-5 overflow-hidden rounded-full'>
         <Image
           src="/images/profile/jenish_patel_bw.jpg"
           alt="Profile picture of Jenish Patel"
