@@ -30,7 +30,7 @@ const About = () => {
       </div>
 
 
-      <div className='w-full max-w-6xl mx-auto mb-5 lg:mb-20 p-3 lg:p-5'>
+      <div className='w-full max-w-6xl mx-auto mb-6 lg:mb-20 p-3 lg:p-5'>
         <Carousel
           opts={{
             align: "start",

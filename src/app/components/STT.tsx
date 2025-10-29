@@ -14,7 +14,7 @@ import Link from 'next/link';
 const STT = () => {
   return (
     <div className='text-xl items-center justify-center flex-1 flex flex-col h-full' >
-        <h1 className='p-5 m-5 text-3xl font-medium font-mono'>Shroomless Time Trial</h1>
+        <h1 className='p-5 m-5 text-3xl font-medium font-mono text-center'>Shroomless Time Trial</h1>
         
         <Carousel
           opts={{
