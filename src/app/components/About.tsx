@@ -18,7 +18,7 @@ const About = () => {
           src="/images/profile/jenish_patel_bw.jpg"
           alt="Profile picture of Jenish Patel"
           fill
-          className='object-cover'
+          className='object-cover [object-position:50%_10%] top scale-125'
           />
       </div>
 
